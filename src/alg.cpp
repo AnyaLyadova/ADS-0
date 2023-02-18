@@ -2,11 +2,10 @@
 
 int gcd(int a, int b) {
     int result = 0;
-	int del = 0;
-	if (a > b) {
+    int del = 0;
+    if (a > b) {
 		del = a;
-	}
-	else {
+	} else {
 		del = b;
 	}
 	for (int i = 1; i <= del; ++i) {
